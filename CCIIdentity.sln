@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA7A75C6-668C-4579-8BC1-833523C5F725}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Jenkinsfile = Jenkinsfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCIIdentity", "CCIIdentity\CCIIdentity.csproj", "{4C8A41C2-5DC4-41EB-A4DE-B99F298A743A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCI.Common", "CCI.Common\CCI.Common.csproj", "{8592F364-3513-4FC6-AC3E-FF47CB52249E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCI.Domain", "CCI.Domain\CCI.Domain.csproj", "{10EF4B9F-05D1-4613-8E53-1BB3B2C330F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCI.Model", "CCI.Model\CCI.Model.csproj", "{A9A2DEB9-7BFD-45FF-B1C0-482DCEEBDDB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCI.Repository", "CCI.Repository\CCI.Repository.csproj", "{DB2F944C-BE72-4390-B38F-84A676A114D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCI.Service", "CCI.Service\CCI.Service.csproj", "{E701C63A-5847-44AD-BD70-FFF020D5F8CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8A41C2-5DC4-41EB-A4DE-B99F298A743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8A41C2-5DC4-41EB-A4DE-B99F298A743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8A41C2-5DC4-41EB-A4DE-B99F298A743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8A41C2-5DC4-41EB-A4DE-B99F298A743A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8592F364-3513-4FC6-AC3E-FF47CB52249E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8592F364-3513-4FC6-AC3E-FF47CB52249E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8592F364-3513-4FC6-AC3E-FF47CB52249E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8592F364-3513-4FC6-AC3E-FF47CB52249E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10EF4B9F-05D1-4613-8E53-1BB3B2C330F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EF4B9F-05D1-4613-8E53-1BB3B2C330F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EF4B9F-05D1-4613-8E53-1BB3B2C330F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EF4B9F-05D1-4613-8E53-1BB3B2C330F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A2DEB9-7BFD-45FF-B1C0-482DCEEBDDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A2DEB9-7BFD-45FF-B1C0-482DCEEBDDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A2DEB9-7BFD-45FF-B1C0-482DCEEBDDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A2DEB9-7BFD-45FF-B1C0-482DCEEBDDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2F944C-BE72-4390-B38F-84A676A114D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2F944C-BE72-4390-B38F-84A676A114D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2F944C-BE72-4390-B38F-84A676A114D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2F944C-BE72-4390-B38F-84A676A114D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E701C63A-5847-44AD-BD70-FFF020D5F8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E701C63A-5847-44AD-BD70-FFF020D5F8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E701C63A-5847-44AD-BD70-FFF020D5F8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E701C63A-5847-44AD-BD70-FFF020D5F8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3324CF6D-F975-46E4-8E62-12D9F2F6E487}
+	EndGlobalSection
+EndGlobal
